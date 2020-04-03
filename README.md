@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/rubyonracetracks/docker-node_user.svg?branch=master)](https://travis-ci.com/rubyonracetracks/docker-node_user)
+
 # Docker For Node With User
 
 Welcome to Docker For Node With User!  The purpose of this repository is to provide a Docker image with the current stable LTS version of Node.js, NPM, and a non-root user.
