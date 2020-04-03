@@ -8,4 +8,4 @@ RUN node -v && npm --version && cat /etc/os-release && \
 
 USER winner
 
-WORKDIR /home/winner/myapp
+WORKDIR /home/winner/neutrino
