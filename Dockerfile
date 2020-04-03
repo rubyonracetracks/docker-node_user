@@ -4,8 +4,8 @@ MAINTAINER Ruby on Racetracks
 RUN node -v && npm --version && cat /etc/os-release && \
     apt-get update && apt-get upgrade -y && \
     apt-get install -y bash && \
-    adduser --disabled-password --gecos '' winner
+    adduser --disabled-password --gecos '' node
 
-USER winner
+USER node
 
-WORKDIR /home/winner/neutrino
+WORKDIR /home/node/neutrino
