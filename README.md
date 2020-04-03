@@ -2,9 +2,9 @@
 
 # Docker For Node With User
 
-Welcome to Docker For Node With User!  The purpose of this repository is to provide a Docker image with the current stable LTS version of Node.js, NPM, and a non-root user.
+Welcome to Docker For Node With User!  The purpose of this repository is to provide a Docker image with the current stable LTS version of Node.js and NPM but that defaults to the user "node" instead of the root user.
 
 ## What changes are made to the basic Docker image?
 * All Debian packages are updated.
 * Bash is added.
-* A regular user (named "node") is added.
+* By default, you enter the Docker container as the user "node" instead of as the root user.
